@@ -28,13 +28,13 @@ public SomeCode {
     }
     
     public int CalculateMax(int[] values) {
-        int max = values[0];
+        int maxValue = values[0];
         for (int i = 0; i < values.length; i++) {
-            if (values[i] > max) {
-                max = values[i];
+            if (values[i] > maxValue) {
+                maxValue = values[i];
             }
         }
-        return max;
+        return maxValue;
     }
     
     public int CalculateMin(int[] values) {
