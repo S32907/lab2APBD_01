@@ -19,11 +19,11 @@ public SomeCode {
     }
     
     public double CalculateAverage(int[] values) {
-    int sum = 0;
+    int sumOfValues = 0;
         for (int i = 0; i < values.length ; i++) {
-            sum += values[i];
+            sumOfValues += values[i];
         }
-    return (double) sum/values.length;    
+    return (double) sumOfValues/values.length;    
     }
     
     public int CalculateMax(int[] values) {
