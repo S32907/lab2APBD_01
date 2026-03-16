@@ -15,6 +15,8 @@ public SomeCode {
         System.out.println("Result of devision: " + (a / b));
 
         System.out.println("This is a huge conflict !")
+        System.out.println("This is a conflict !");
+        System.out.println("And this is a solution!")
     }
     
     public double CalculateAverage(int[] values) {
