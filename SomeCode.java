@@ -25,4 +25,14 @@ public SomeCode {
     return (double) sum/values.length;    
     }
     
+    public int CalculateMax(int[] values) {
+        int max = values[0];
+        for (int i = 0; i < values.length; i++) {
+            if (values[i] > max) {
+                max = values[i];
+            }
+        }
+        return max;
+    }
+    
 }
