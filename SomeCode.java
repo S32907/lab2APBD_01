@@ -13,5 +13,12 @@ public SomeCode {
         System.out.println("Diff: " + (a - b));
         System.out.println("Product: " + (a * b));
         System.out.println("Result of devision: " + (a / b));
+
+   
     }
+    
+    public double CalculateAverage(int[] values) {
+    
+    }
+    
 }
