@@ -35,4 +35,8 @@ public SomeCode {
         return max;
     }
     
+    public int CalculateMin(int[] values) {
+       
+    }
+    
 }
