@@ -14,7 +14,7 @@ public SomeCode {
         System.out.println("Product: " + (a * b));
         System.out.println("Result of devision: " + (a / b));
 
-        System.out.println("This is a conflict!");
+        System.out.println("This is a conflict !");
    
     }
     
